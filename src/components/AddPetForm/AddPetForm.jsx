@@ -163,7 +163,7 @@ export const AddPetForm: React.FC = () => {
             marginBottom: 10,
           }}
         >
-          <Button variant="outlined">Cancel</Button>
+          <Button variant="outlined" onClick={goToHomePage}>Cancel</Button>
           <LoadingButton
             variant="contained"
             style={{ marginLeft: 10 }}
